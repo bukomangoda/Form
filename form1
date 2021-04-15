@@ -1,0 +1,75 @@
+<html>
+<form>
+<head>
+<style>form{width:28%}
+</style>
+</head>
+
+<fieldset>
+<Legend>Car Registration</legend>
+<table border="0">
+<tr>
+<td>Owner Name</td>
+<td><input type="text name="Owner Name"></td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input type="text" name="Email"></td>
+</tr>
+
+<tr>
+<td> Phone Number</td>
+<td><input type="text" name="PNumber"></td>
+</tr>
+
+<tr>
+<td><label for="cars">Country:</label></td>
+<td><select name="cars" id="cars">
+    <option value="Srilanka">Sri lanka</option>
+    <option value="India">India</option>
+    <option value="China">China</option>
+  </select></td>
+</tr>
+
+<tr>
+<td>Car Model</td>
+<td><input type="text" name="CM"></td>
+</tr>
+
+<tr>
+<td><label for="cars">Manufactured Year:</label></td>
+<td><select name="Selected year" id="Sel"ected Year>
+    <option value="Selected year">Selected year</option>
+    <option value="2006">2006</option>
+    <option value="2007">2007</option>
+    <option value="2010">2010</option>
+  </select></td>
+</tr>
+
+<tr>
+<td>Transission</td>
+<td><input type="radio"name="g"value="0">Manual
+<input type="radio"name="g"value="1">Auto</td>
+</form>
+</tr>
+
+<tr>
+<td>Other</td>
+<td><textarea rows="5" | name= "comment"></textarea></td>
+</tr>
+
+<tr>
+<td colspan="2"><input type="checkbox">I agree to the conditio and terms.</td>
+</tr>
+
+<tr>
+<td><input type="Submit"name="sub"value="SUBMIT">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Submit"name="sub"value="Reset">
+</td>
+</tr>
+
+</fieldset>
+
+
+</form>
+</html>
